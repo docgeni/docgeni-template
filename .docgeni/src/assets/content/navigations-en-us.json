@@ -11,13 +11,15 @@
           "items": [
             {
               "id": "lib",
-              "title": "Foo",
-              "subtitle": "测试",
+              "title": "主标题",
+              "subtitle": "子标题",
               "path": "lib",
               "importSpecifier": "docgeni-template/lib",
-              "examples": [],
+              "examples": [
+                "docgeni-template-lib-basic-example"
+              ],
               "overview": true,
-              "api": false,
+              "api": true,
               "order": 2,
               "category": "general"
             }
@@ -39,13 +41,15 @@
   "docs": [
     {
       "id": "lib",
-      "title": "Foo",
-      "subtitle": "测试",
+      "title": "主标题",
+      "subtitle": "子标题",
       "path": "lib",
       "importSpecifier": "docgeni-template/lib",
-      "examples": [],
+      "examples": [
+        "docgeni-template-lib-basic-example"
+      ],
       "overview": true,
-      "api": false,
+      "api": true,
       "order": 2,
       "category": "general"
     }

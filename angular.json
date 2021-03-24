@@ -5,5 +5,46 @@
   },
   "version": 1,
   "newProjectRoot": "projects",
-  "defaultProject": "docgeni-template"
+  "defaultProject": "docgeni-template",
+  "projects": {
+    "docgeni-template": {
+      "projectType": "library",
+      "root": "projects/docgeni-template",
+      "sourceRoot": "projects/docgeni-template",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/docgeni-template/tsconfig.lib.json",
+            "project": "projects/docgeni-template/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/docgeni-template/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/docgeni-template/test.ts",
+            "tsConfig": "projects/docgeni-template/tsconfig.spec.json",
+            "karmaConfig": "projects/docgeni-template/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/docgeni-template/tsconfig.lib.json",
+              "projects/docgeni-template/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }}
 }

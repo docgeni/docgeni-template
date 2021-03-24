@@ -5,9 +5,8 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "paths": {
-      "docgeni-template": [
-        "dist/docgeni-template/docgeni-template",
-        "dist/docgeni-template"
+      "docgeni-template/*": [
+        "./projects/docgeni-template/*"
       ]
     },
     "sourceMap": true,

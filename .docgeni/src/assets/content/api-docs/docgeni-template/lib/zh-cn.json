@@ -1,0 +1,1 @@
+[{"type":"component","name":"lib-docgeni-template","description":"<p>示例组件</p>\n","properties":[{"name":"title","description":"<p>标题</p>\n","type":"string","default":"docgeni-template"}]}]

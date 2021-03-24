@@ -7,6 +7,10 @@ export class LibExampleLoader extends ExampleLoader {
 
     enableIvy = true;
 
+    'docgeni-template/lib'() {
+       return import('./components/docgeni-template/lib/index');
+    }
+
     load(exampleKey: string): Promise<ExampleLoadResult> {
         const example = EXAMPLE_COMPONENTS[exampleKey];
         return new Promise(resolve => {

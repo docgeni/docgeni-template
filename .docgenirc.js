@@ -37,7 +37,7 @@ module.exports = {
     libs: [
         {
             name: 'docgeni-template',
-            rootDir: './projects/docgeni-template/src',
+            rootDir: './projects/docgeni-template',
             include: [],
             exclude: '',
             categories: [
