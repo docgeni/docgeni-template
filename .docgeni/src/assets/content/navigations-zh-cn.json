@@ -1,0 +1,69 @@
+{
+  "navs": [
+    {
+      "id": "getting-started",
+      "path": "getting-started",
+      "channel_path": "",
+      "title": "Getting Started",
+      "order": 9007199254740991,
+      "contentPath": "docs/getting-started.html"
+    },
+    {
+      "title": "组件",
+      "path": "components",
+      "lib": "docgeni-template",
+      "items": [
+        {
+          "id": "general",
+          "title": "通用",
+          "items": [
+            {
+              "id": "lib",
+              "title": "Foo",
+              "subtitle": "测试",
+              "path": "lib",
+              "importSpecifier": "docgeni-template/lib",
+              "examples": [],
+              "overview": true,
+              "api": false,
+              "order": 2,
+              "category": "general"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "GitHub",
+      "path": "https://github.com/docgeni/docgeni",
+      "isExternal": true
+    },
+    {
+      "title": "更新日志",
+      "path": "https://github.com/docgeni/docgeni/blob/master/CHANGELOG.md",
+      "isExternal": true
+    }
+  ],
+  "docs": [
+    {
+      "id": "getting-started",
+      "path": "getting-started",
+      "channel_path": "",
+      "title": "Getting Started",
+      "order": 9007199254740991,
+      "contentPath": "docs/getting-started.html"
+    },
+    {
+      "id": "lib",
+      "title": "Foo",
+      "subtitle": "测试",
+      "path": "lib",
+      "importSpecifier": "docgeni-template/lib",
+      "examples": [],
+      "overview": true,
+      "api": false,
+      "order": 2,
+      "category": "general"
+    }
+  ]
+}
