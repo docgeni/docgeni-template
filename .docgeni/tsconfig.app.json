@@ -23,7 +23,7 @@
         "../packages/template/src/public-api.ts"
       ],
       "alib/*":[
-        "../projects/alib/*"
+        "../projects/alib/src/*"
       ]
     }
   },

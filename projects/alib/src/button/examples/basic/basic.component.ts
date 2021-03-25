@@ -1,12 +1,10 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-basic',
   templateUrl: './basic.component.html',
   styleUrls: ['./basic.component.css'],
 })
-export class AlibButtonBasicExampleComponent implements OnInit {
+export class AlibButtonBasicExampleComponent {
   constructor() {}
-
-  ngOnInit() {}
 }

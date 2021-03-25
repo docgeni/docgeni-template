@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/docgeni-template'),
+      dir: require('path').join(__dirname, '../../coverage/alib'),
       subdir: '.',
       reporters: [
         { type: 'html' },

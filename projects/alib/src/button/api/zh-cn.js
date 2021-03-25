@@ -9,7 +9,6 @@ module.exports = [
                 description:
                     '标题',
                 type: 'string',
-                default: 'docgeni-template'
             },
         ]
     }

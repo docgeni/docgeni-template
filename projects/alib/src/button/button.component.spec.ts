@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DocgeniTemplateComponent } from './docgeni-template.component';
+import { ButtonComponent } from './button.component';
 
-describe('DocgeniTemplateComponent', () => {
-  let component: DocgeniTemplateComponent;
-  let fixture: ComponentFixture<DocgeniTemplateComponent>;
+describe('ButtonComponent', () => {
+  let component: ButtonComponent;
+  let fixture: ComponentFixture<ButtonComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DocgeniTemplateComponent ]
+      declarations: [ ButtonComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DocgeniTemplateComponent);
+    fixture = TestBed.createComponent(ButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

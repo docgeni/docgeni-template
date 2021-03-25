@@ -40,7 +40,7 @@ module.exports = {
     libs: [
         {
             name: 'alib',
-            rootDir: './projects/alib',
+            rootDir: './projects/alib/src',
             include: [],
             exclude: '',
             categories: [

@@ -6,7 +6,7 @@
     "outDir": "./dist/out-tsc",
     "paths": {
       "alib/*": [
-        "./projects/alib/*"
+        "./projects/alib/src/*"
       ]
     },
     "sourceMap": true,
