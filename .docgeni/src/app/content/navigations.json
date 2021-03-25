@@ -3,20 +3,20 @@
     {
       "title": "Components",
       "path": "components",
-      "lib": "docgeni-template",
+      "lib": "alib",
       "items": [
         {
           "id": "general",
           "title": "General",
           "items": [
             {
-              "id": "lib",
+              "id": "button",
               "title": "主标题",
               "subtitle": "子标题",
-              "path": "lib",
-              "importSpecifier": "docgeni-template/lib",
+              "path": "button",
+              "importSpecifier": "alib/button",
               "examples": [
-                "docgeni-template-lib-basic-example"
+                "alib-button-basic-example"
               ],
               "overview": true,
               "api": true,
@@ -40,30 +40,39 @@
   ],
   "zh-cn": [
     {
-      "id": "getting-started",
-      "path": "getting-started",
-      "channel_path": "",
-      "title": "Getting Started",
-      "order": 9007199254740991,
-      "contentPath": "docs/getting-started.html"
+      "id": "guides",
+      "path": "guides",
+      "channel_path": "guides",
+      "title": "Guides",
+      "items": [
+        {
+          "id": "getting-started",
+          "path": "getting-started",
+          "channel_path": "guides",
+          "title": "Getting Started",
+          "order": 9007199254740991,
+          "contentPath": "docs/guides/getting-started.html"
+        }
+      ],
+      "order": 9007199254740991
     },
     {
       "title": "组件",
       "path": "components",
-      "lib": "docgeni-template",
+      "lib": "alib",
       "items": [
         {
           "id": "general",
           "title": "通用",
           "items": [
             {
-              "id": "lib",
+              "id": "button",
               "title": "主标题",
               "subtitle": "子标题",
-              "path": "lib",
-              "importSpecifier": "docgeni-template/lib",
+              "path": "button",
+              "importSpecifier": "alib/button",
               "examples": [
-                "docgeni-template-lib-basic-example"
+                "alib-button-basic-example"
               ],
               "overview": true,
               "api": true,

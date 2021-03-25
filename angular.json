@@ -5,40 +5,40 @@
   },
   "version": 1,
   "newProjectRoot": "projects",
-  "defaultProject": "docgeni-template",
+  "defaultProject": "alib",
   "projects": {
-    "docgeni-template": {
+    "alib": {
       "projectType": "library",
-      "root": "projects/docgeni-template",
-      "sourceRoot": "projects/docgeni-template",
-      "prefix": "lib",
+      "root": "projects/alib",
+      "sourceRoot": "projects/alib",
+      "prefix": "alib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/docgeni-template/tsconfig.lib.json",
-            "project": "projects/docgeni-template/ng-package.json"
+            "tsConfig": "projects/alib/tsconfig.lib.json",
+            "project": "projects/alib/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/docgeni-template/tsconfig.lib.prod.json"
+              "tsConfig": "projects/alib/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/docgeni-template/test.ts",
-            "tsConfig": "projects/docgeni-template/tsconfig.spec.json",
-            "karmaConfig": "projects/docgeni-template/karma.conf.js"
+            "main": "projects/alib/test.ts",
+            "tsConfig": "projects/alib/tsconfig.spec.json",
+            "karmaConfig": "projects/alib/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/docgeni-template/tsconfig.lib.json",
-              "projects/docgeni-template/tsconfig.spec.json"
+              "projects/alib/tsconfig.lib.json",
+              "projects/alib/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

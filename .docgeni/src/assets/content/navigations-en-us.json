@@ -3,20 +3,20 @@
     {
       "title": "Components",
       "path": "components",
-      "lib": "docgeni-template",
+      "lib": "alib",
       "items": [
         {
           "id": "general",
           "title": "General",
           "items": [
             {
-              "id": "lib",
+              "id": "button",
               "title": "主标题",
               "subtitle": "子标题",
-              "path": "lib",
-              "importSpecifier": "docgeni-template/lib",
+              "path": "button",
+              "importSpecifier": "alib/button",
               "examples": [
-                "docgeni-template-lib-basic-example"
+                "alib-button-basic-example"
               ],
               "overview": true,
               "api": true,
@@ -40,13 +40,13 @@
   ],
   "docs": [
     {
-      "id": "lib",
+      "id": "button",
       "title": "主标题",
       "subtitle": "子标题",
-      "path": "lib",
-      "importSpecifier": "docgeni-template/lib",
+      "path": "button",
+      "importSpecifier": "alib/button",
       "examples": [
-        "docgeni-template-lib-basic-example"
+        "alib-button-basic-example"
       ],
       "overview": true,
       "api": true,

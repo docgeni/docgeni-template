@@ -5,8 +5,8 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "paths": {
-      "docgeni-template/*": [
-        "./projects/docgeni-template/*"
+      "alib/*": [
+        "./projects/alib/*"
       ]
     },
     "sourceMap": true,

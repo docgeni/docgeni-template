@@ -1,7 +1,7 @@
 
-import { EXAMPLES_MODULE as DocgeniTemplateLibExampleModule } from './components/docgeni-template/lib/index';
+import { EXAMPLES_MODULE as AlibButtonExampleModule } from './components/alib/button/index';
 
 
 export const EXAMPLE_MODULES = [
-   DocgeniTemplateLibExampleModule,
+   AlibButtonExampleModule,
 ];

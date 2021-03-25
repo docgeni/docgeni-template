@@ -7,8 +7,8 @@ export class LibExampleLoader extends ExampleLoader {
 
     enableIvy = true;
 
-    'docgeni-template/lib'() {
-       return import('./components/docgeni-template/lib/index');
+    'alib/button'() {
+       return import('./components/alib/button/index');
     }
 
     load(exampleKey: string): Promise<ExampleLoadResult> {

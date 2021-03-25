@@ -1,12 +1,12 @@
 export const EXAMPLE_COMPONENTS = {
-    "docgeni-template-lib-basic-example": {
-        "key": "docgeni-template-lib-basic-example",
+    "alib-button-basic-example": {
+        "key": "alib-button-basic-example",
         "name": "basic",
         "title": "Basic",
-        "componentName": "DocgeniTemplateLibBasicExampleComponent",
+        "componentName": "AlibButtonBasicExampleComponent",
         "module": {
-            "name": "DocgeniTemplateLibExamplesModule",
-            "importSpecifier": "docgeni-template/lib"
+            "name": "AlibButtonExamplesModule",
+            "importSpecifier": "alib/button"
         },
         "sourceFiles": [
             {

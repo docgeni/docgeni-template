@@ -1,9 +1,12 @@
+/**
+ * @type {import('@docgeni/template').DocgeniConfig}
+ */
 module.exports = {
     $schema: '@docgeni/cli/cli.schema.json',
     mode: 'full',
     title: 'Docgeni',
     logoUrl: 'https://cdn.worktile.com/open-sources/docgeni/logos/docgeni.png',
-    docsPath: './docs',
+    docsDir: './docs',
     output: 'dist/docs-site',
     repoUrl: 'https://github.com/docgeni/docgeni',
     navs: [
@@ -11,7 +14,7 @@ module.exports = {
         {
             title: '组件',
             path: 'components',
-            lib: 'docgeni-template',
+            lib: 'alib',
             locales: {
                 'en-us': {
                     title: 'Components'
@@ -36,8 +39,8 @@ module.exports = {
     ],
     libs: [
         {
-            name: 'docgeni-template',
-            rootDir: './projects/docgeni-template',
+            name: 'alib',
+            rootDir: './projects/alib',
             include: [],
             exclude: '',
             categories: [
