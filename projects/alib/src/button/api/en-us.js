@@ -2,11 +2,11 @@ module.exports = [
   {
     type: "component",
     name: "alib-button",
-    description: "按钮组件",
+    description: "Button component",
     properties: [
       {
         name: "alibType",
-        description: "按钮类型",
+        description: "Button type",
         type: "string",
       },
     ],

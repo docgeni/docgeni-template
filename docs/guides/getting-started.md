@@ -1,3 +1,8 @@
-# Hello Docgeni!
+---
+title: Getting Started
+order: 20
+---
 
-Welcome to use Docgeni.
+## Installation
+
+ ...

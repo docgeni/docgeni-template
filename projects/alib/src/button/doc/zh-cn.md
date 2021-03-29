@@ -1,7 +1,8 @@
 ---
 category: general
-title: 主标题
-subtitle: 子标题
+title: 按钮
+subtitle: Button
 order: 2
 ---
-这是一个示例组件
+
+按钮是一个即时操作组件

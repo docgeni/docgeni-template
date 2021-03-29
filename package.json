@@ -1,10 +1,10 @@
 {
-  "name": "docgeni-template",
+  "name": "mylib",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "npm run start:docs",
-    "start:docs": "docgeni serve",
+    "start:docs": "docgeni serve --port 4700",
     "build": "ng build",
     "build:docs": "docgeni build",
     "test": "ng test",
@@ -25,7 +25,8 @@
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
-    "@docgeni/cli": "^0.6.0-next.17",
+    "@docgeni/cli": "^0.6.0-next.18",
+    "@docgeni/template": "^0.6.0-next.18",
     "@angular-devkit/build-angular": "~0.1102.3",
     "@angular/cli": "~11.2.4",
     "@angular/compiler-cli": "~11.2.5",
