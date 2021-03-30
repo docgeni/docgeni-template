@@ -1,27 +1,70 @@
-# DocgeniTemplate
+# Docgeni Template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+A template for Angular Lib & Docs use Docgeni.
 
-## Development server
+## How to use?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Click the top right button "Use this template" of this repo.
 
-## Code scaffolding
+## Preview
+...
+## Commands
+- `npm run start`: start development for this lib, it is an alias for `npm run start:docs`
+- `npm ru build`: build this angular component lib
+- `npm ru test`: exec unit tests of component lib
+- `npm run build:docs`: build docs site to dist/docgeni-site
+- `npm run lint`: lint component lib
+## Directory Structure
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+.
+├── docs
+│   ├── guides
+│   │   ├── getting-started.md
+│   │   ├── index.md
+│   │   └── intro.md
+│   └── zh-cn
+│       └── guides
+│           ├── getting-started.md
+│           ├── index.md
+│           └── intro.md
+├── projects
+│   └── alib
+│       ├── README.md
+│       ├── karma.conf.js
+│       ├── src
+│       │   ├── button
+│       │   │   ├── api
+│       │   │   │   ├── en-us.js
+│       │   │   │   └── zh-cn.js
+│       │   │   ├── button.component.html
+│       │   │   ├── button.component.spec.ts
+│       │   │   ├── button.component.ts
+│       │   │   ├── button.module.ts
+│       │   │   ├── doc
+│       │   │   │   ├── en-us.md
+│       │   │   │   └── zh-cn.md
+│       │   │   ├── examples
+│       │   │   │   ├── basic
+│       │   │   │   │   ├── basic.component.css
+│       │   │   │   │   ├── basic.component.html
+│       │   │   │   │   └── basic.component.ts
+│       │   │   │   └── module.ts
+│       │   │   ├── index.ts
+│       │   │   └── package.json
+│       │   ├── ng-package.json
+│       │   ├── package.json
+│       │   ├── public-api.ts
+│       │   └── test.ts
+│       ├── tsconfig.lib.json
+│       ├── tsconfig.lib.prod.json
+│       ├── tsconfig.spec.json
+│       └── tslint.json
+├── tsconfig.json
+├── tslint.json
+├── package.json
+├── README.md
+├── angular.json
+└── yarn.lock
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
