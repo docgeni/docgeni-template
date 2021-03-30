@@ -19,9 +19,10 @@
       "node"
     ],
     "paths": {
-      "alib/*": [
-        "../../projects/alib/src/*"
-      ]
+      "@docgeni/template": [
+        "../packages/template/src/public-api.ts"
+      ],
+      "alib/*":["../src/*"]
     }
   },
   "files": [

@@ -28,7 +28,7 @@ module.exports = {
   libs: [
     {
       name: "alib",
-      rootDir: "./projects/alib/src",
+      rootDir: "./src",
       include: [],
       exclude: "",
       categories: [
