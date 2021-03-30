@@ -1,12 +1,12 @@
 {
-  "name": "mylib",
+  "name": "alib",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "npm run start:docs",
     "start:docs": "docgeni serve --port 4700",
     "build": "ng build",
-    "build:docs": "docgeni build",
+    "build:docs": "docgeni build --prod --base-href=/docgeni-template/",
     "test": "ng test",
     "lint": "ng lint"
   },

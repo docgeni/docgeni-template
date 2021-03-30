@@ -3,7 +3,7 @@
  */
 module.exports = {
   mode: "full",
-  title: "MyLib",
+  title: "ALib",
   logoUrl: "https://cdn.worktile.com/open-sources/docgeni/logos/docgeni.png",
   docsDir: "docs",
   repoUrl: "https://github.com/docgeni/docgeni-template",
