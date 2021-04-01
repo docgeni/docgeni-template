@@ -64,11 +64,11 @@ https://docgeni.github.io/docgeni-template
 │   ├── tsconfig.lib.prod.json
 │   ├── tsconfig.spec.json
 │   └── tslint.json
+├── angular.json
 ├── tsconfig.json
 ├── tslint.json
+├── package-lock.json
 ├── package.json
-├── README.md
-├── angular.json
-└── yarn.lock
+└── README.md
 
 ```

@@ -5,10 +5,12 @@
     "ng": "ng",
     "start": "npm run start:docs",
     "start:docs": "docgeni serve --port 4700",
-    "build": "ng build",
-    "build:docs": "docgeni build --prod --base-href=/docgeni-template/",
+    "build": "ng build --prod",
+    "build:docs": "docgeni build --prod",
+    "build:docs-gh-page": "docgeni build --prod --base-href=/docgeni-template/",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "pretty": "pretty-quick"
   },
   "private": true,
   "dependencies": {
@@ -25,11 +27,11 @@
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
-    "@docgeni/cli": "^1.0.0-beta.0",
-    "@docgeni/template": "^1.0.0-beta.0",
     "@angular-devkit/build-angular": "~0.1102.3",
     "@angular/cli": "~11.2.4",
     "@angular/compiler-cli": "~11.2.5",
+    "@docgeni/cli": "^1.0.0-beta.0",
+    "@docgeni/template": "^1.0.0-beta.0",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
@@ -41,6 +43,8 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "ng-packagr": "^11.0.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
