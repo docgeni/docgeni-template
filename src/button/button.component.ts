@@ -1,13 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'alib-button',
-  templateUrl: './button.component.html',
-  styles: [],
+    selector: 'alib-button',
+    templateUrl: './button.component.html',
+    styles: []
 })
 export class ButtonComponent implements OnInit {
-  @Input() title = 'hello world';
-  constructor() {}
+    @Input() title = 'hello world';
 
-  ngOnInit(): void {}
+    constructor() {}
+
+    ngOnInit(): void {}
 }
