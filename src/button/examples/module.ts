@@ -5,9 +5,9 @@ import { ButtonModule } from 'alib/button';
 const COMPONENTS = [AlibButtonBasicExampleComponent];
 
 @NgModule({
-  declarations: COMPONENTS,
-  imports: [CommonModule, ButtonModule],
-  exports: COMPONENTS,
-  providers: [],
+    declarations: COMPONENTS,
+    imports: [CommonModule, ButtonModule],
+    exports: COMPONENTS,
+    providers: []
 })
 export class AlibButtonExamplesModule {}
