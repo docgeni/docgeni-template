@@ -8,6 +8,6 @@ const COMPONENTS = [AlibButtonBasicExampleComponent];
     declarations: COMPONENTS,
     imports: [CommonModule, ButtonModule],
     exports: COMPONENTS,
-    providers: [],
+    providers: []
 })
 export class AlibButtonExamplesModule {}
