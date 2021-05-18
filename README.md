@@ -16,8 +16,8 @@ https://docgeni.github.io/docgeni-template
 
 ## Commands
 - `npm run start`: start development for this lib, it is an alias for `npm run start:docs`
-- `npm ru build`: build this angular component lib
-- `npm ru test`: exec unit tests of component lib
+- `npm run build`: build this angular component lib
+- `npm run test`: exec unit tests of component lib
 - `npm run build:docs`: build docs site to dist/docgeni-site
 - `npm run lint`: lint component lib
 ## Directory Structure
