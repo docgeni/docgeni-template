@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "npm run start:docs",
+    "docgeni": "npx --no-install docgeni init",
     "start:docs": "docgeni serve --port 4700",
     "build": "ng build --prod",
     "build:docs": "docgeni build --prod",
@@ -33,8 +34,8 @@
     "@angular/compiler-cli": "~11.2.5",
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-angular": "^12.0.1",
-    "@docgeni/cli": "^1.0.0-beta.4",
-    "@docgeni/template": "^1.0.0-beta.4",
+    "@docgeni/cli": "^1.0.0-beta.5",
+    "@docgeni/template": "^1.0.0-beta.5",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
