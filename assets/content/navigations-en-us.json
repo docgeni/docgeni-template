@@ -3,13 +3,13 @@
     {
       "id": "guides",
       "path": "guides",
-      "channel_path": "guides",
+      "channelPath": "guides",
       "title": "Docs",
       "items": [
         {
           "id": "intro",
           "path": "intro",
-          "channel_path": "guides",
+          "channelPath": "guides",
           "title": "Intro",
           "order": 10,
           "contentPath": "docs/guides/intro.html"
@@ -17,7 +17,7 @@
         {
           "id": "getting-started",
           "path": "getting-started",
-          "channel_path": "guides",
+          "channelPath": "guides",
           "title": "Getting Started",
           "order": 20,
           "contentPath": "docs/guides/getting-started.html"
@@ -62,7 +62,7 @@
     {
       "id": "getting-started",
       "path": "getting-started",
-      "channel_path": "guides",
+      "channelPath": "guides",
       "title": "Getting Started",
       "order": 20,
       "contentPath": "docs/guides/getting-started.html"
@@ -70,7 +70,7 @@
     {
       "id": "intro",
       "path": "intro",
-      "channel_path": "guides",
+      "channelPath": "guides",
       "title": "Intro",
       "order": 10,
       "contentPath": "docs/guides/intro.html"

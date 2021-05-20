@@ -3,13 +3,13 @@
     {
       "id": "guides",
       "path": "guides",
-      "channel_path": "guides",
+      "channelPath": "guides",
       "title": "文档",
       "items": [
         {
           "id": "intro",
           "path": "intro",
-          "channel_path": "guides",
+          "channelPath": "guides",
           "title": "介绍",
           "order": 10,
           "contentPath": "docs/zh-cn/guides/intro.html"
@@ -17,7 +17,7 @@
         {
           "id": "getting-started",
           "path": "getting-started",
-          "channel_path": "guides",
+          "channelPath": "guides",
           "title": "快速开始",
           "order": 20,
           "contentPath": "docs/zh-cn/guides/getting-started.html"
@@ -62,7 +62,7 @@
     {
       "id": "getting-started",
       "path": "getting-started",
-      "channel_path": "guides",
+      "channelPath": "guides",
       "title": "快速开始",
       "order": 20,
       "contentPath": "docs/zh-cn/guides/getting-started.html"
@@ -70,7 +70,7 @@
     {
       "id": "intro",
       "path": "intro",
-      "channel_path": "guides",
+      "channelPath": "guides",
       "title": "介绍",
       "order": 10,
       "contentPath": "docs/zh-cn/guides/intro.html"
