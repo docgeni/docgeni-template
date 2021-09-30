@@ -12,7 +12,9 @@
           "channelPath": "guides",
           "title": "Intro",
           "order": 10,
-          "contentPath": "docs/guides/intro.html"
+          "toc": "content",
+          "contentPath": "docs/guides/intro.html",
+          "originPath": "docs/guides/intro.md"
         },
         {
           "id": "getting-started",
@@ -20,7 +22,9 @@
           "channelPath": "guides",
           "title": "Getting Started",
           "order": 20,
-          "contentPath": "docs/guides/getting-started.html"
+          "toc": "content",
+          "contentPath": "docs/guides/getting-started.html",
+          "originPath": "docs/guides/getting-started.md"
         }
       ],
       "order": 9007199254740991
@@ -46,7 +50,13 @@
               "overview": true,
               "api": true,
               "order": 2,
-              "category": "general"
+              "category": "general",
+              "label": {
+                "text": "New",
+                "color": "#73D897"
+              },
+              "originPath": "src/button/doc/en-us.md",
+              "toc": "content"
             }
           ]
         }
@@ -65,7 +75,9 @@
       "channelPath": "guides",
       "title": "Getting Started",
       "order": 20,
-      "contentPath": "docs/guides/getting-started.html"
+      "toc": "content",
+      "contentPath": "docs/guides/getting-started.html",
+      "originPath": "docs/guides/getting-started.md"
     },
     {
       "id": "intro",
@@ -73,7 +85,9 @@
       "channelPath": "guides",
       "title": "Intro",
       "order": 10,
-      "contentPath": "docs/guides/intro.html"
+      "toc": "content",
+      "contentPath": "docs/guides/intro.html",
+      "originPath": "docs/guides/intro.md"
     },
     {
       "id": "button",
@@ -87,7 +101,65 @@
       "overview": true,
       "api": true,
       "order": 2,
-      "category": "general"
+      "category": "general",
+      "label": {
+        "text": "New",
+        "color": "#73D897"
+      },
+      "originPath": "src/button/doc/en-us.md",
+      "toc": "content"
     }
-  ]
+  ],
+  "homeMeta": {
+    "hero": {
+      "title": "Alib",
+      "description": "Fast and Power Angular UI Component",
+      "actions": [
+        {
+          "text": "Getting Started",
+          "link": "/guides/intro/getting-started",
+          "btnShape": "round"
+        },
+        {
+          "text": "Design",
+          "link": "/guides/intro",
+          "btnShape": "square",
+          "btnType": "outline-primary-light"
+        }
+      ]
+    },
+    "features": [
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/feature1.png",
+        "title": "Feature1",
+        "description": "Feature1 Description"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/feature2.png",
+        "title": "Feature2",
+        "description": "Feature2 Description"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/feature3.png",
+        "title": "Feature3",
+        "description": "Feature3 Description"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/feature4.png",
+        "title": "Feature4",
+        "description": "Feature4 Description"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/feature5.png",
+        "title": "Feature5",
+        "description": "Feature5 Description"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/feature6.png",
+        "title": "Feature6",
+        "description": "Feature6 Description"
+      }
+    ],
+    "contentPath": "docs/index.html"
+  }
 }

@@ -12,7 +12,9 @@
           "channelPath": "guides",
           "title": "介绍",
           "order": 10,
-          "contentPath": "docs/zh-cn/guides/intro.html"
+          "toc": "content",
+          "contentPath": "docs/zh-cn/guides/intro.html",
+          "originPath": "docs/zh-cn/guides/intro.md"
         },
         {
           "id": "getting-started",
@@ -20,7 +22,9 @@
           "channelPath": "guides",
           "title": "快速开始",
           "order": 20,
-          "contentPath": "docs/zh-cn/guides/getting-started.html"
+          "toc": "content",
+          "contentPath": "docs/zh-cn/guides/getting-started.html",
+          "originPath": "docs/zh-cn/guides/getting-started.md"
         }
       ],
       "order": 9007199254740991
@@ -46,7 +50,13 @@
               "overview": true,
               "api": true,
               "order": 2,
-              "category": "general"
+              "category": "general",
+              "label": {
+                "text": "New",
+                "color": "#73D897"
+              },
+              "originPath": "src/button/doc/zh-cn.md",
+              "toc": "content"
             }
           ]
         }
@@ -65,7 +75,9 @@
       "channelPath": "guides",
       "title": "快速开始",
       "order": 20,
-      "contentPath": "docs/zh-cn/guides/getting-started.html"
+      "toc": "content",
+      "contentPath": "docs/zh-cn/guides/getting-started.html",
+      "originPath": "docs/zh-cn/guides/getting-started.md"
     },
     {
       "id": "intro",
@@ -73,7 +85,9 @@
       "channelPath": "guides",
       "title": "介绍",
       "order": 10,
-      "contentPath": "docs/zh-cn/guides/intro.html"
+      "toc": "content",
+      "contentPath": "docs/zh-cn/guides/intro.html",
+      "originPath": "docs/zh-cn/guides/intro.md"
     },
     {
       "id": "button",
@@ -87,7 +101,67 @@
       "overview": true,
       "api": true,
       "order": 2,
-      "category": "general"
+      "category": "general",
+      "label": {
+        "text": "New",
+        "color": "#73D897"
+      },
+      "originPath": "src/button/doc/zh-cn.md",
+      "toc": "content"
     }
-  ]
+  ],
+  "homeMeta": {
+    "title": "首页",
+    "order": 10,
+    "hero": {
+      "title": "Docgeni",
+      "description": "开箱即用的 Angular 组件文档生成工具",
+      "actions": [
+        {
+          "text": "快速上手",
+          "link": "/guides/intro/getting-started",
+          "btnShape": "round"
+        },
+        {
+          "text": "Design",
+          "link": "/guides/intro",
+          "btnShape": "square",
+          "btnType": "outline-primary-light"
+        }
+      ]
+    },
+    "features": [
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能1.png",
+        "title": "功能1",
+        "description": "功能1 描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能2.png",
+        "title": "功能2",
+        "description": "功能2描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能3.png",
+        "title": "功能3",
+        "description": "功能3描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能4.png",
+        "title": "功能4",
+        "description": "功能4描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能5.png",
+        "title": "功能5",
+        "description": "功能5描述"
+      },
+      {
+        "icon": "https://cdn.pingcode.com/open-sources/docgeni/home/功能6.png",
+        "title": "功能6",
+        "description": "功能6描述"
+      }
+    ],
+    "contentPath": "docs/zh-cn/index.html"
+  }
 }
