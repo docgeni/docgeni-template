@@ -72,3 +72,12 @@ https://docgeni.github.io/docgeni-template
 └── README.md
 
 ```
+
+## Angular Versions
+
+Current Angular Version: `12.x`
+
+Angular|Branch|
+--|--
+11.x|[ng-11.x](https://github.com/docgeni/docgeni-template/tree/ng-11.x)
+12.x|[master](https://github.com/docgeni/docgeni-template/tree/master)
