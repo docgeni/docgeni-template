@@ -1,5 +1,5 @@
 /**
- * @type {import('@docgeni/template').DocgeniConfig}
+ * @type {import('@docgeni/core').DocgeniConfig}
  */
 module.exports = {
     mode: 'full',
@@ -32,6 +32,7 @@ module.exports = {
             rootDir: './src',
             include: [],
             exclude: '',
+            apiMode: 'compatible',
             categories: [
                 {
                     id: 'general',
