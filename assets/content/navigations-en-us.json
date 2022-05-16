@@ -13,6 +13,7 @@
           "title": "Intro",
           "order": 10,
           "toc": "content",
+          "headings": [],
           "contentPath": "docs/guides/intro.html",
           "originPath": "docs/guides/intro.md"
         },
@@ -23,6 +24,20 @@
           "title": "Getting Started",
           "order": 20,
           "toc": "content",
+          "headings": [
+            {
+              "id": "installation",
+              "name": "Installation",
+              "level": 2,
+              "type": "h2"
+            },
+            {
+              "id": "use-docgeni-template",
+              "name": "Use Docgeni Template",
+              "level": 2,
+              "type": "h2"
+            }
+          ],
           "contentPath": "docs/guides/getting-started.html",
           "originPath": "docs/guides/getting-started.md"
         }
@@ -56,7 +71,8 @@
                 "color": "#73D897"
               },
               "originPath": "src/button/doc/en-us.md",
-              "toc": "content"
+              "toc": "content",
+              "channelPath": "components"
             }
           ]
         }
@@ -76,6 +92,20 @@
       "title": "Getting Started",
       "order": 20,
       "toc": "content",
+      "headings": [
+        {
+          "id": "installation",
+          "name": "Installation",
+          "level": 2,
+          "type": "h2"
+        },
+        {
+          "id": "use-docgeni-template",
+          "name": "Use Docgeni Template",
+          "level": 2,
+          "type": "h2"
+        }
+      ],
       "contentPath": "docs/guides/getting-started.html",
       "originPath": "docs/guides/getting-started.md"
     },
@@ -86,6 +116,7 @@
       "title": "Intro",
       "order": 10,
       "toc": "content",
+      "headings": [],
       "contentPath": "docs/guides/intro.html",
       "originPath": "docs/guides/intro.md"
     },
@@ -107,7 +138,8 @@
         "color": "#73D897"
       },
       "originPath": "src/button/doc/en-us.md",
-      "toc": "content"
+      "toc": "content",
+      "channelPath": "components"
     }
   ],
   "homeMeta": {
@@ -117,12 +149,12 @@
       "actions": [
         {
           "text": "Getting Started",
-          "link": "/guides/intro/getting-started",
+          "link": "guides/getting-started",
           "btnShape": "round"
         },
         {
           "text": "Design",
-          "link": "/guides/intro",
+          "link": "guides/intro",
           "btnShape": "square",
           "btnType": "outline-primary-light"
         }
