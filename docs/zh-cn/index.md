@@ -6,10 +6,10 @@ hero:
   description: 开箱即用的 Angular 组件文档生成工具
   actions:
     - text: 快速上手
-      link: /guides/intro/getting-started
+      link: guides/getting-started
       btnShape: round
     - text: Design
-      link: /guides/intro
+      link: guides/intro
       btnShape: square
       btnType: outline-primary-light
 features:

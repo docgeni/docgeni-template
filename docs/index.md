@@ -4,10 +4,10 @@ hero:
   description: Fast and Power Angular UI Component
   actions:
     - text: Getting Started
-      link: /guides/intro/getting-started
+      link: guides/getting-started
       btnShape: round
     - text: Design
-      link: /guides/intro
+      link: guides/intro
       btnShape: square
       btnType: outline-primary-light
 features:
