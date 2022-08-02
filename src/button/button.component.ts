@@ -2,6 +2,7 @@ import { Component, OnInit, HostBinding, Input, ElementRef } from '@angular/core
 
 /**
  * Button component
+ * @name alib-button
  */
 @Component({
     selector: 'alib-button,[alibButton]',
@@ -14,6 +15,7 @@ export class AlibButtonComponent implements OnInit {
 
     /**
      * Alias for Button type, `'primary' | 'info' | 'success' | 'waring' | 'danger'`
+     * @default primary
      */
     @Input() set alibButton(value: string) {
         if (this.type) {
@@ -26,6 +28,7 @@ export class AlibButtonComponent implements OnInit {
     /**
      * Button type, `'primary' | 'info' | 'success' | 'waring' | 'danger'`
      * @type string
+     * @default primary
      */
     @Input() alibType: 'primary' | 'info' | 'success' | 'waring' | 'danger' = 'primary';
 
