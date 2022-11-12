@@ -5,4 +5,11 @@ order: 2
 label: new
 ---
 
-Button is an instant operation component.
+<alert>Button is an instant operation component.</alert>
+
+## Module Import
+```ts
+import { AlibButtomModule } from 'alib';
+```
+
+<examples />
