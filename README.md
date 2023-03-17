@@ -24,6 +24,11 @@ https://docgeni.github.io/docgeni-template
 
 ```
 .
+|── .docgeni
+│   ├── public
+│   │   ├──assets
+│           ├── images
+│   │   ├──tsconfig.json
 ├── docs
 │   ├── guides
 │   │   ├── getting-started.md
@@ -75,9 +80,12 @@ https://docgeni.github.io/docgeni-template
 
 ## Angular Versions
 
-Current Angular Version: `12.x`
+Current Angular Version: `15.x`
 
 Angular|Branch|
 --|--
 11.x|[ng-11.x](https://github.com/docgeni/docgeni-template/tree/ng-11.x)
-12.x|[master](https://github.com/docgeni/docgeni-template/tree/master)
+12.x|[master](https://github.com/docgeni/docgeni-template/tree/ng-12.x)
+13.x|[master](https://github.com/docgeni/docgeni-template/tree/ng-13.x)
+14.x|[master](https://github.com/docgeni/docgeni-template/tree/ng-14.x)
+15.x|[master](https://github.com/docgeni/docgeni-template/tree/master)
