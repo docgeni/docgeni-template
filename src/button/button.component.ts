@@ -6,7 +6,8 @@ import { Component, OnInit, HostBinding, Input, ElementRef } from '@angular/core
  */
 @Component({
     selector: 'alib-button,[alibButton]',
-    template: '<ng-content></ng-content>'
+    template: '<ng-content></ng-content>',
+    standalone: true
 })
 export class AlibButtonComponent implements OnInit {
     @HostBinding(`class.dg-btn`) isBtn = true;

@@ -57,7 +57,6 @@ https://docgeni.github.io/docgeni-template
 │   │   │   │   ├── basic.component.css
 │   │   │   │   ├── basic.component.html
 │   │   │   │   └── basic.component.ts
-│   │   │   └── module.ts
 │   │   ├── index.ts
 │   │   └── package.json
 │   ├── karma.conf.js

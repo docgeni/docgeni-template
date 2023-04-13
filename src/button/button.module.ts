@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { AlibButtonComponent } from './button.component';
 
 @NgModule({
-    declarations: [AlibButtonComponent],
-    imports: [],
+    declarations: [],
+    imports: [AlibButtonComponent],
     exports: [AlibButtonComponent]
 })
 export class AlibButtonModule {}
