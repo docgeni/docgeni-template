@@ -30,7 +30,7 @@ module.exports = {
         {
             name: 'alib',
             rootDir: './src',
-            include: [],
+            include: [''],
             exclude: '',
             apiMode: 'compatible',
             categories: [
