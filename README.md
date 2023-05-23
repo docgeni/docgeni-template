@@ -84,7 +84,8 @@ Current Angular Version: `15.x`
 Angular|Branch|
 --|--
 11.x|[ng-11.x](https://github.com/docgeni/docgeni-template/tree/ng-11.x)
-12.x|[master](https://github.com/docgeni/docgeni-template/tree/ng-12.x)
-13.x|[master](https://github.com/docgeni/docgeni-template/tree/ng-13.x)
-14.x|[master](https://github.com/docgeni/docgeni-template/tree/ng-14.x)
-15.x|[master](https://github.com/docgeni/docgeni-template/tree/master)
+12.x|[ng-12.x](https://github.com/docgeni/docgeni-template/tree/ng-12.x)
+13.x|[ng-13.x](https://github.com/docgeni/docgeni-template/tree/ng-13.x)
+14.x|[ng-14.x](https://github.com/docgeni/docgeni-template/tree/ng-14.x)
+15.x|[ng-15.x](https://github.com/docgeni/docgeni-template/tree/ng-15.x)
+15.6|[master](https://github.com/docgeni/docgeni-template/tree/master)
