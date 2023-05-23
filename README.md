@@ -79,7 +79,7 @@ https://docgeni.github.io/docgeni-template
 
 ## Angular Versions
 
-Current Angular Version: `15.x`
+Current Angular Version: `16.x`
 
 Angular|Branch|
 --|--
@@ -88,4 +88,4 @@ Angular|Branch|
 13.x|[ng-13.x](https://github.com/docgeni/docgeni-template/tree/ng-13.x)
 14.x|[ng-14.x](https://github.com/docgeni/docgeni-template/tree/ng-14.x)
 15.x|[ng-15.x](https://github.com/docgeni/docgeni-template/tree/ng-15.x)
-15.6|[master](https://github.com/docgeni/docgeni-template/tree/master)
+16.x|[master](https://github.com/docgeni/docgeni-template/tree/master)
