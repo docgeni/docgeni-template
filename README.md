@@ -79,7 +79,7 @@ https://docgeni.github.io/docgeni-template
 
 ## Angular Versions
 
-Current Angular Version: `16.x`
+Current Angular Version: `18.x`
 
 Angular|Branch|
 --|--
