@@ -1,4 +1,4 @@
-import { Component, OnInit, HostBinding, Input, ElementRef } from '@angular/core';
+import { Component, OnInit, HostBinding, Input, ElementRef, input } from '@angular/core';
 
 /**
  * Button component
@@ -32,6 +32,11 @@ export class AlibButtonComponent implements OnInit {
      * @default primary
      */
     @Input() alibType: 'primary' | 'info' | 'success' | 'waring' | 'danger' = 'primary';
+
+    /**
+     * Alib theme of alib button component
+     */
+    alibTheme = input<'default' | 'dark'>('dark');
 
     constructor(private elementRef: ElementRef<HTMLElement>) {}
 
